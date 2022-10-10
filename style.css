@@ -1,0 +1,162 @@
+*{    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url("image/body.png"); 
+    background-position:center; 
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+    bottom: 30px;  
+    font-family: "Noto Sans Mono", serif;   
+    }
+
+header{
+        padding-top: 15px;
+    }
+
+header img{
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    max-width: 450px;
+    min-width: 400px;
+    opacity: 0.5;       
+   }
+
+nav{
+    border-bottom: 0.1px solid white;
+    border-radius: 1em;
+    width: 100%;
+}
+nav h3{
+    margin: 0.5em;
+    opacity: 0.7;
+}
+
+nav h3 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:antiquewhite;
+    border: solid grey 1px;
+    border-radius: 3em;
+    padding: 0.2em;
+    }
+nav h3 a:hover{
+background-color: rgb(105, 120, 133);
+
+}
+
+#logoCon{
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+    max-width: 450px;
+    min-width: 400px;
+    opacity: 0.8;
+}
+
+#countries {
+    text-align: center;   
+    margin-bottom: 20px;
+    }
+
+#countries a{   
+    text-decoration: none;    
+            }
+
+#countries a img{
+   border: solid 2px white;
+   border-radius: 2em;
+   height: 50px;
+   margin-top: 15px;
+    }
+
+.author{
+    display: block;
+    margin: 10px 10px 5px 20px ;
+    font-family: "Noto Sans Mono",'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.quotes{
+    margin: 5px 10px 5px 50px;
+    font-family:cursive;
+    font-size: 15px;
+
+}
+
+.quotes:hover{
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;  
+    transition-duration: 1s;
+    background-color: rgb(60, 64, 64);
+    border-radius: 2em;
+  }
+
+.column {
+width: 100%;
+height: 100%;
+}
+
+.center{
+    display:block;
+    width: 40%;
+    margin-left: 4%;   
+    border: solid 1px white;
+    border-radius: 2em;   
+    position: relative; 
+    margin: 0 auto;
+
+}
+.center h2{
+    font-size: 25px;
+}
+.authorPic{
+    margin-top: 10px;
+    text-align: center;
+}
+.authorPic img{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 3em;
+    border: 1px solid wheat;
+   }
+
+.column h2{
+    text-align: center;
+    font-family:cursive;
+    
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+
+footer{
+    padding: 0;
+    border-top: 0.1px solid white;
+    border-radius: 1em;
+    width: 100%;
+    position: fixed;
+    z-index: 10;  
+    bottom: 0;   
+}
+
+h5{
+    text-align: center;
+}
+
+
+
+
